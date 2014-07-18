@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A63FC21C1978BAFC00EFCF56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63FC21B1978BAFC00EFCF56 /* Foundation.framework */; };
+		A63FC21E1978BAFC00EFCF56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63FC21D1978BAFC00EFCF56 /* CoreGraphics.framework */; };
+		A63FC2201978BAFC00EFCF56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63FC21F1978BAFC00EFCF56 /* UIKit.framework */; };
+		A63FC2261978BAFC00EFCF56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A63FC2241978BAFC00EFCF56 /* InfoPlist.strings */; };
+		A63FC2281978BAFC00EFCF56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A63FC2271978BAFC00EFCF56 /* main.m */; };
+		A63FC22C1978BAFC00EFCF56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A63FC22B1978BAFC00EFCF56 /* AppDelegate.m */; };
+		A63FC22F1978BAFC00EFCF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A63FC22D1978BAFC00EFCF56 /* Main.storyboard */; };
+		A63FC2321978BAFC00EFCF56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63FC2311978BAFC00EFCF56 /* ViewController.m */; };
+		A63FC2341978BAFC00EFCF56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63FC2331978BAFC00EFCF56 /* Images.xcassets */; };
+		A63FC23B1978BAFC00EFCF56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63FC23A1978BAFC00EFCF56 /* XCTest.framework */; };
+		A63FC23C1978BAFC00EFCF56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63FC21B1978BAFC00EFCF56 /* Foundation.framework */; };
+		A63FC23D1978BAFC00EFCF56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63FC21F1978BAFC00EFCF56 /* UIKit.framework */; };
+		A63FC2451978BAFC00EFCF56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A63FC2431978BAFC00EFCF56 /* InfoPlist.strings */; };
+		A63FC2471978BAFC00EFCF56 /* OpenTiffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A63FC2461978BAFC00EFCF56 /* OpenTiffTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A63FC23E1978BAFC00EFCF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A63FC2101978BAFC00EFCF56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A63FC2171978BAFC00EFCF56;
+			remoteInfo = OpenTiff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A63FC2181978BAFC00EFCF56 /* OpenTiff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTiff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63FC21B1978BAFC00EFCF56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A63FC21D1978BAFC00EFCF56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A63FC21F1978BAFC00EFCF56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A63FC2231978BAFC00EFCF56 /* OpenTiff-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTiff-Info.plist"; sourceTree = "<group>"; };
+		A63FC2251978BAFC00EFCF56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A63FC2271978BAFC00EFCF56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A63FC2291978BAFC00EFCF56 /* OpenTiff-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenTiff-Prefix.pch"; sourceTree = "<group>"; };
+		A63FC22A1978BAFC00EFCF56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A63FC22B1978BAFC00EFCF56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A63FC22E1978BAFC00EFCF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A63FC2301978BAFC00EFCF56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A63FC2311978BAFC00EFCF56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A63FC2331978BAFC00EFCF56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A63FC2391978BAFC00EFCF56 /* OpenTiffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTiffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63FC23A1978BAFC00EFCF56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A63FC2421978BAFC00EFCF56 /* OpenTiffTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTiffTests-Info.plist"; sourceTree = "<group>"; };
+		A63FC2441978BAFC00EFCF56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A63FC2461978BAFC00EFCF56 /* OpenTiffTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenTiffTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63FC2151978BAFC00EFCF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63FC21E1978BAFC00EFCF56 /* CoreGraphics.framework in Frameworks */,
+				A63FC2201978BAFC00EFCF56 /* UIKit.framework in Frameworks */,
+				A63FC21C1978BAFC00EFCF56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63FC2361978BAFC00EFCF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63FC23B1978BAFC00EFCF56 /* XCTest.framework in Frameworks */,
+				A63FC23D1978BAFC00EFCF56 /* UIKit.framework in Frameworks */,
+				A63FC23C1978BAFC00EFCF56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63FC20F1978BAFC00EFCF56 = {
+			isa = PBXGroup;
+			children = (
+				A63FC2211978BAFC00EFCF56 /* OpenTiff */,
+				A63FC2401978BAFC00EFCF56 /* OpenTiffTests */,
+				A63FC21A1978BAFC00EFCF56 /* Frameworks */,
+				A63FC2191978BAFC00EFCF56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A63FC2191978BAFC00EFCF56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63FC2181978BAFC00EFCF56 /* OpenTiff.app */,
+				A63FC2391978BAFC00EFCF56 /* OpenTiffTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63FC21A1978BAFC00EFCF56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A63FC21B1978BAFC00EFCF56 /* Foundation.framework */,
+				A63FC21D1978BAFC00EFCF56 /* CoreGraphics.framework */,
+				A63FC21F1978BAFC00EFCF56 /* UIKit.framework */,
+				A63FC23A1978BAFC00EFCF56 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A63FC2211978BAFC00EFCF56 /* OpenTiff */ = {
+			isa = PBXGroup;
+			children = (
+				A63FC22A1978BAFC00EFCF56 /* AppDelegate.h */,
+				A63FC22B1978BAFC00EFCF56 /* AppDelegate.m */,
+				A63FC22D1978BAFC00EFCF56 /* Main.storyboard */,
+				A63FC2301978BAFC00EFCF56 /* ViewController.h */,
+				A63FC2311978BAFC00EFCF56 /* ViewController.m */,
+				A63FC2331978BAFC00EFCF56 /* Images.xcassets */,
+				A63FC2221978BAFC00EFCF56 /* Supporting Files */,
+			);
+			path = OpenTiff;
+			sourceTree = "<group>";
+		};
+		A63FC2221978BAFC00EFCF56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A63FC2231978BAFC00EFCF56 /* OpenTiff-Info.plist */,
+				A63FC2241978BAFC00EFCF56 /* InfoPlist.strings */,
+				A63FC2271978BAFC00EFCF56 /* main.m */,
+				A63FC2291978BAFC00EFCF56 /* OpenTiff-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A63FC2401978BAFC00EFCF56 /* OpenTiffTests */ = {
+			isa = PBXGroup;
+			children = (
+				A63FC2461978BAFC00EFCF56 /* OpenTiffTests.m */,
+				A63FC2411978BAFC00EFCF56 /* Supporting Files */,
+			);
+			path = OpenTiffTests;
+			sourceTree = "<group>";
+		};
+		A63FC2411978BAFC00EFCF56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A63FC2421978BAFC00EFCF56 /* OpenTiffTests-Info.plist */,
+				A63FC2431978BAFC00EFCF56 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63FC2171978BAFC00EFCF56 /* OpenTiff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63FC24A1978BAFC00EFCF56 /* Build configuration list for PBXNativeTarget "OpenTiff" */;
+			buildPhases = (
+				A63FC2141978BAFC00EFCF56 /* Sources */,
+				A63FC2151978BAFC00EFCF56 /* Frameworks */,
+				A63FC2161978BAFC00EFCF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTiff;
+			productName = OpenTiff;
+			productReference = A63FC2181978BAFC00EFCF56 /* OpenTiff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A63FC2381978BAFC00EFCF56 /* OpenTiffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63FC24D1978BAFC00EFCF56 /* Build configuration list for PBXNativeTarget "OpenTiffTests" */;
+			buildPhases = (
+				A63FC2351978BAFC00EFCF56 /* Sources */,
+				A63FC2361978BAFC00EFCF56 /* Frameworks */,
+				A63FC2371978BAFC00EFCF56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A63FC23F1978BAFC00EFCF56 /* PBXTargetDependency */,
+			);
+			name = OpenTiffTests;
+			productName = OpenTiffTests;
+			productReference = A63FC2391978BAFC00EFCF56 /* OpenTiffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A63FC2101978BAFC00EFCF56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LiZhiChao;
+				TargetAttributes = {
+					A63FC2381978BAFC00EFCF56 = {
+						TestTargetID = A63FC2171978BAFC00EFCF56;
+					};
+				};
+			};
+			buildConfigurationList = A63FC2131978BAFC00EFCF56 /* Build configuration list for PBXProject "OpenTiff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A63FC20F1978BAFC00EFCF56;
+			productRefGroup = A63FC2191978BAFC00EFCF56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A63FC2171978BAFC00EFCF56 /* OpenTiff */,
+				A63FC2381978BAFC00EFCF56 /* OpenTiffTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63FC2161978BAFC00EFCF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63FC2341978BAFC00EFCF56 /* Images.xcassets in Resources */,
+				A63FC2261978BAFC00EFCF56 /* InfoPlist.strings in Resources */,
+				A63FC22F1978BAFC00EFCF56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63FC2371978BAFC00EFCF56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63FC2451978BAFC00EFCF56 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63FC2141978BAFC00EFCF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63FC2321978BAFC00EFCF56 /* ViewController.m in Sources */,
+				A63FC22C1978BAFC00EFCF56 /* AppDelegate.m in Sources */,
+				A63FC2281978BAFC00EFCF56 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63FC2351978BAFC00EFCF56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63FC2471978BAFC00EFCF56 /* OpenTiffTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A63FC23F1978BAFC00EFCF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A63FC2171978BAFC00EFCF56 /* OpenTiff */;
+			targetProxy = A63FC23E1978BAFC00EFCF56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A63FC2241978BAFC00EFCF56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63FC2251978BAFC00EFCF56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A63FC22D1978BAFC00EFCF56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63FC22E1978BAFC00EFCF56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A63FC2431978BAFC00EFCF56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63FC2441978BAFC00EFCF56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A63FC2481978BAFC00EFCF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A63FC2491978BAFC00EFCF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A63FC24B1978BAFC00EFCF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTiff/OpenTiff-Prefix.pch";
+				INFOPLIST_FILE = "OpenTiff/OpenTiff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A63FC24C1978BAFC00EFCF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTiff/OpenTiff-Prefix.pch";
+				INFOPLIST_FILE = "OpenTiff/OpenTiff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A63FC24E1978BAFC00EFCF56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenTiff.app/OpenTiff";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTiff/OpenTiff-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OpenTiffTests/OpenTiffTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A63FC24F1978BAFC00EFCF56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenTiff.app/OpenTiff";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenTiff/OpenTiff-Prefix.pch";
+				INFOPLIST_FILE = "OpenTiffTests/OpenTiffTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A63FC2131978BAFC00EFCF56 /* Build configuration list for PBXProject "OpenTiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63FC2481978BAFC00EFCF56 /* Debug */,
+				A63FC2491978BAFC00EFCF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63FC24A1978BAFC00EFCF56 /* Build configuration list for PBXNativeTarget "OpenTiff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63FC24B1978BAFC00EFCF56 /* Debug */,
+				A63FC24C1978BAFC00EFCF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A63FC24D1978BAFC00EFCF56 /* Build configuration list for PBXNativeTarget "OpenTiffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63FC24E1978BAFC00EFCF56 /* Debug */,
+				A63FC24F1978BAFC00EFCF56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A63FC2101978BAFC00EFCF56 /* Project object */;
+}

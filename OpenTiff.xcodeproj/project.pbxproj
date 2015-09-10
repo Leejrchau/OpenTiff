@@ -21,6 +21,8 @@
 		A63FC23D1978BAFC00EFCF56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63FC21F1978BAFC00EFCF56 /* UIKit.framework */; };
 		A63FC2451978BAFC00EFCF56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A63FC2431978BAFC00EFCF56 /* InfoPlist.strings */; };
 		A63FC2471978BAFC00EFCF56 /* OpenTiffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A63FC2461978BAFC00EFCF56 /* OpenTiffTests.m */; };
+		A63FC2521978BB3600EFCF56 /* NSTiffiSplitter.m in Sources */ = {isa = PBXBuildFile; fileRef = A63FC2511978BB3600EFCF56 /* NSTiffiSplitter.m */; };
+		A63FC2541978BECD00EFCF56 /* Example.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A63FC2531978BECD00EFCF56 /* Example.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		A63FC2421978BAFC00EFCF56 /* OpenTiffTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTiffTests-Info.plist"; sourceTree = "<group>"; };
 		A63FC2441978BAFC00EFCF56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A63FC2461978BAFC00EFCF56 /* OpenTiffTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenTiffTests.m; sourceTree = "<group>"; };
+		A63FC2501978BB3600EFCF56 /* NSTiffiSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTiffiSplitter.h; sourceTree = "<group>"; };
+		A63FC2511978BB3600EFCF56 /* NSTiffiSplitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTiffiSplitter.m; sourceTree = "<group>"; };
+		A63FC2531978BECD00EFCF56 /* Example.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Example.tiff; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,8 @@
 				A63FC2311978BAFC00EFCF56 /* ViewController.m */,
 				A63FC2331978BAFC00EFCF56 /* Images.xcassets */,
 				A63FC2221978BAFC00EFCF56 /* Supporting Files */,
+				A63FC2501978BB3600EFCF56 /* NSTiffiSplitter.h */,
+				A63FC2511978BB3600EFCF56 /* NSTiffiSplitter.m */,
 			);
 			path = OpenTiff;
 			sourceTree = "<group>";
@@ -126,6 +133,7 @@
 		A63FC2221978BAFC00EFCF56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A63FC2531978BECD00EFCF56 /* Example.tiff */,
 				A63FC2231978BAFC00EFCF56 /* OpenTiff-Info.plist */,
 				A63FC2241978BAFC00EFCF56 /* InfoPlist.strings */,
 				A63FC2271978BAFC00EFCF56 /* main.m */,
@@ -231,6 +239,7 @@
 				A63FC2341978BAFC00EFCF56 /* Images.xcassets in Resources */,
 				A63FC2261978BAFC00EFCF56 /* InfoPlist.strings in Resources */,
 				A63FC22F1978BAFC00EFCF56 /* Main.storyboard in Resources */,
+				A63FC2541978BECD00EFCF56 /* Example.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 			files = (
 				A63FC2321978BAFC00EFCF56 /* ViewController.m in Sources */,
 				A63FC22C1978BAFC00EFCF56 /* AppDelegate.m in Sources */,
+				A63FC2521978BB3600EFCF56 /* NSTiffiSplitter.m in Sources */,
 				A63FC2281978BAFC00EFCF56 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +389,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenTiff/OpenTiff-Prefix.pch";
 				INFOPLIST_FILE = "OpenTiff/OpenTiff-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenTiff/OpenTiff-Prefix.pch";
 				INFOPLIST_FILE = "OpenTiff/OpenTiff-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +468,7 @@
 				A63FC24C1978BAFC00EFCF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A63FC24D1978BAFC00EFCF56 /* Build configuration list for PBXNativeTarget "OpenTiffTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				A63FC24F1978BAFC00EFCF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
